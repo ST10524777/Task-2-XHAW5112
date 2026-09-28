@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Header at the top of the page -->
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our Courses"
+                android:textColor="@color/my_blue"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose a course to learn more"
+                android:textColor="@color/simple_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Professional (6 Months)"
+                android:textColor="@color/dark_navy"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <!-- Student ID names: simple and easy to track -->
+            <Button
+                android:id="@+id/btn_course_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Canine Obedience Training"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/my_blue"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/btn_course_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Pet Grooming"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/my_blue"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btn_course_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Animal Behaviour"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/my_blue"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btn_course_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Pet Business Management"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/my_blue"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Short Courses (6 Weeks)"
+                android:textColor="@color/dark_navy"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/btn_course_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Puppy Care"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/bright_blue"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/btn_course_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Pet First Aid"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/bright_blue"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btn_course_7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Basic Dog Walking"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/bright_blue"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btn_go_to_calc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Open Discount Calculator"
+                android:backgroundTint="@color/dark_navy"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

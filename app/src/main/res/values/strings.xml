@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pawsitive Pet Academy</string>
+
+    <!--
+        How to use strings.xml:
+        I learned to put my text here instead of hardcoding it so it's easier to manage.
+        Reference: https://developer.android.com/guide/topics/resources/string-resource
+    -->
+
+    <string name="welcome_msg">Welcome to</string>
+    <string name="academy_name">Pawsitive Pet Academy</string>
+    <string name="academy_tagline">Caring, Trustworthy &amp; Professional Pet Education</string>
+    <string name="logo_hint">[ Place Logo Here ]</string>
+    <string name="btn_explore">Explore Academy &amp; Courses</string>
+
+    <!-- About Screen - Rewritten to be unique and student-like -->
+    <string name="about_title">Our Academy Story</string>
+
+    <string name="about_history">Our school first opened its doors in Durban during 2023. Sarah Smith started this whole project because she wanted to make sure that everyone who loves pets has a place to learn how to take care of them the right way. Since we began, we have helped so many different people finish our long 12-week professional courses and our quick 6-week skills classes. It has been great seeing our students learn so much about animals.</string>
+
+    <string name="about_mission">We believe that every pet owner should know the basics, like what to feed them or what to do if there is an emergency. Sarah created this academy to teach those hands-on skills that actually help pets live better lives. This education also gives our students the chance to find new jobs in the pet world or even try to start up their own small businesses. We just want to make life better for pets and their owners.</string>
+
+    <string name="btn_to_catalog">Go to Course Catalogue</string>
+
+    <!-- Dashboard / Course List -->
+    <string name="dir_title">Our Training Courses</string>
+    <string name="dir_subtitle">Pick a course from the list to see what it is about.</string>
+
+    <!-- New button text for the back button -->
+    <string name="btn_back_to_about">Back to History Page</string>
+</resources>

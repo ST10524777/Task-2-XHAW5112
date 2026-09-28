@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Student-Friendly Color Names -->
+    <color name="my_blue">#1b4de3</color>
+    <color name="bright_blue">#1a59ff</color>
+    <color name="dark_navy">#1a2c60</color>
+    <color name="pure_black">#000000</color>
+    <color name="simple_grey">#979daa</color>
+    <color name="white">#FFFFFF</color>
+    <color name="screen_bg">#F4F6FA</color>
+
+    <!-- Aliases to fix any older layout files -->
+    <color name="primary">#1b4de3</color>
+    <color name="primary_light">#1a59ff</color>
+    <color name="primary_dark">#1a2c60</color>
+    <color name="black">#000000</color>
+    <color name="grey">#979daa</color>
+    <color name="background">#F4F6FA</color>
+</resources>

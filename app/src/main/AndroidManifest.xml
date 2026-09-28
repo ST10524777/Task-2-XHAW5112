@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.XHAWApp">
+
+        <!-- Screen 1: Welcome Activity (The Launcher) -->
+        <!-- Fixed: Set exported to true so the phone launcher can open it -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Screen 2 -->
+        <activity android:name=".AboutActivity" />
+        <!-- Screen 3 -->
+        <activity android:name=".DashboardActivity" />
+        <!-- Screen 4 -->
+        <activity android:name=".ObedienceActivity" />
+        <!-- Screen 5 -->
+        <activity android:name=".GroomingActivity" />
+        <!-- Screen 6 -->
+        <activity android:name=".BehaviourActivity" />
+        <!-- Screen 7 -->
+        <activity android:name=".BusinessActivity" />
+        <!-- Screen 8 -->
+        <activity android:name=".PuppyActivity" />
+        <!-- Screen 9 -->
+        <activity android:name=".FirstAidActivity" />
+        <!-- Screen 10 -->
+        <activity android:name=".WalkingActivity" />
+        <!-- Screen 11 -->
+        <activity android:name=".CalculatorActivity" />
+        <!-- Screen 12 -->
+        <activity android:name=".ContactActivity" />
+
+    </application>
+
+</manifest>
